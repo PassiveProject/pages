@@ -56,6 +56,11 @@ body {
     background-color: #34495e;
 }
 
+.nav-menu a:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 2px;
+}
+
 /* Main Content */
 main {
     min-height: calc(100vh - 200px);
@@ -164,6 +169,11 @@ main {
 
 .btn:hover {
     background-color: #2980b9;
+}
+
+.btn:focus {
+    outline: 2px solid #2c3e50;
+    outline-offset: 2px;
 }
 
 /* Footer */
