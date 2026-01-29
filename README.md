@@ -4,10 +4,22 @@ This is a repo for public pages - a static web application for hosting informati
 ## Overview
 
 This repository contains a static website with the following pages:
-- **Home** (`index.html`): Landing page with overview and navigation
+- **Home** (`index.html`): Landing page with overview, games showcase, and navigation
 - **About** (`about.html`): Information about PassiveProject mission and values
 - **Privacy Policy** (`privacy.html`): Comprehensive privacy policy
 - **Terms of Service** (`terms.html`): Terms and conditions for using PassiveProject applications
+
+### Games
+
+The repository includes dedicated pages for our games:
+
+#### Block Game (`games/block/`)
+- **Landing Page** (`index.html`): Game overview, features, and how to play
+- **Privacy Policy** (`privacy.html`): Game-specific privacy information
+
+#### Hokm Game (`games/hokm/`)
+- **Landing Page** (`index.html`): Game overview, features, and rules
+- **Privacy Policy** (`privacy.html`): Game-specific privacy information
 
 ## Features
 
@@ -65,11 +77,18 @@ This static website can be deployed to any static hosting service:
 
 ```
 .
-├── index.html          # Homepage
+├── index.html          # Homepage with games showcase
 ├── about.html          # About page
 ├── privacy.html        # Privacy policy
 ├── terms.html          # Terms of service
 ├── styles.css          # Shared stylesheet
+├── games/
+│   ├── block/
+│   │   ├── index.html     # Block game landing page
+│   │   └── privacy.html   # Block game privacy policy
+│   └── hokm/
+│       ├── index.html     # Hokm game landing page
+│       └── privacy.html   # Hokm game privacy policy
 ├── LICENSE            # Apache 2.0 License
 └── README.md          # This file
 ```
